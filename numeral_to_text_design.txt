@@ -1,7 +1,8 @@
-Design a recursive function to convert numbers as digits to text in Nahuatl (Nauatl).
-Nahuatl number names are based on a base 20 numeral system.
+Design a recursive function to convert numerals to text in Nahuatl (Nauatl).
 
-The first task is to find the greatest digit position (base 20) of the numeral, name it, and then recursively call the function with the remainder.
+Nahuatl number names derive from a base 20 numeral system.
+
+The function should find the greatest digit position (base 20) of the numeral, name it, and then recursively call the function with the remainder.
 
 Example 421(base 10) = 111(base 20)
 400 - sentsontli
